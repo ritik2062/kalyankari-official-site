@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!----Font awesome cdn  font icon css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+     <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-k"></i>
+                    <div class="logo-text">Kalyankari Shah</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Vegetable</a></li>
+                        <li><a href="#">Fruit</a></li>
+                        <li><a href="#">Dance</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                 <div class="hero-pic">
+                    <img src="C:\Users\krish\OneDrive\Desktop\Project Kalyankari\IMG_20250507_233820.jpg" alt="profile pic">
+                 </div>
+                 <div class="hero-text">
+                    <h5>Hi I'm <span class="input">Tarkari Seller</span></h5>
+                    <h1>Andolankari</h1>
+                    <p> Hi I'm kalyantarkari and I'm a vegetable seller. If you want any vegetable at low cost you Contact me through my personal details.
+                        I'm also a part time dancer. If you want to dance with me you can come any time.<br>
+<br>
+                        I would like to share about my sweetheart. I met her when I was joining neema medical for my medical entarance preparataion.
+                        Do you all know she is so beautiful that you all can't imagine.
+                        When I use to see her my atrium and ventricle depolarization and repolarization increase in such a way that I can't explain about it.
+                        She is just like a angel. I thik my heart stops to work when I don't see  her for a day.
+                        She is my heart, liver, kidney, and all the organs stops to function when she is not infront of me.
+                        <br>
+                        <br>
+                        But see my badluck, she has already a boyfriend. It's a shocking news for me. 
+                        But i will wait for her throughtout my life. 
+                        <br>
+                        So hope guys ki wuska pata kat jaya aur mera jaldi se jud jaye.
+                        <br>
+                        <br>
+                        I love you Tripti ❤❤...
+
+
+
+
+                    </p>
+
+                    <div class="btn-group">
+                       <a href="#" class="btn active">Order vegetable</a>
+                       <a href="#" class="btn">Contact</a>
+                    </div>
+
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                        <a href="#"><i class="fa-brands fa-pintrest"></i></a>
+                    </div>
+                 </div>
+            </div>
+        </div>
+     </div>
+     <!---typed js for typing text effect-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+     <script>
+        /** creating button click show hide navbar **/
+        var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+
+        var typed=new Typed(".input",{
+            strings:["Fruit seller","Fruit Seller","a part time Dancer"],
+            typedSpeed:100,
+            backSpeed:60,
+            loop:true
+        })
+     </script>
+</body>
+</html>
